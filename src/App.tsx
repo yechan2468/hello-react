@@ -134,7 +134,7 @@ export default function Calculator() {
       WebkitAnimation: "spin 8s linear infinite",
       MozAnimation: "spin 8s linear infinite",
       animation: "spin linear infinite",
-      animationDuration: `${10 / speed}s`,
+      animationDuration: `${1000 / (speed * speed)}s`,
     };
   }
 
